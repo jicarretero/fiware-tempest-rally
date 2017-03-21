@@ -87,3 +87,18 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# IDE
+.idea
+
+# OpenStack description file
+deploy/.openrc
+
+# Keypairs
+deploy/*.pem
+
+# Temporal ansible files
+deploy/*.retry
+
+# Python Virtual Environment
+deploy/env
