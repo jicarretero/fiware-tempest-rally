@@ -24,3 +24,13 @@ hostname: tempest-ralli
 # Server name
 servername: tempest-ralli
 
+# Identity service in the FIWARE Lab node
+# Data should be taken from the .openrc file except the
+# administrator credentials
+auth_url: <keystone server url>
+region_name: <region name>
+username: <admin user name>
+password: <admin password>
+project_name: <admin project name>
+user_domain_name: <user domain name>
+project_domain_name: <project domain name>
