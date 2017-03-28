@@ -81,11 +81,12 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
+deploy/env
 
-# Spyder project settings
+# Spyder project config
 .spyderproject
 
-# Rope project settings
+# Rope project config
 .ropeproject
 
 # IDE
@@ -100,5 +101,5 @@ deploy/*.pem
 # Temporal ansible files
 deploy/*.retry
 
-# Python Virtual Environment
-deploy/env
+# Node modules
+node_modules

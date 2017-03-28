@@ -76,3 +76,15 @@ ansible-playbook -i openstack_inventory.py --user=ubuntu --private-key=<YOUR SSH
 - Once this has finished successfully your OpenStack Tempest+Ralli server is installed and configured 
 to connect to the FIWARE Lab node. Now you're ready to enter into it and start checking the sanity
 status of your node. 
+
+```
+Installation of Rally is done!
+
+Rally is now installed in your system. Information about your Rally
+installation:
+
+  * Method: system
+  * Database at: /var/lib/rally/database
+  * Configuration file at: /etc/rally
+  * Samples at: /usr/share/rally/samples
+```
