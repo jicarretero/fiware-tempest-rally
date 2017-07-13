@@ -41,6 +41,6 @@ app.get('/region', function (req, res) {
 });
 
 app.listen(port, function () {
-    console.log('\nServer is running at http://' + hostname + ':' + port + '' +
-        '\nServer hostname ' + hostname + ' is listening on port ' + port + '!');
+    console.log('\nServer is running at http://' + config.liten + ':' + config.port + '' +
+        '\nServer hostname ' + config.listen + ' is listening on port ' + config.port + '!');
 });
